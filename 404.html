@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect…</title>
+  <script>
+    // Ottieni il percorso richiesto
+    const path = window.location.pathname;
+
+    // Costruisci il nuovo percorso dentro /lorenzo.web/
+    const newUrl = "/lorenzo.web" + path;
+
+    // Reindirizza
+    window.location.replace(newUrl);
+  </script>
+</head>
+<body>
+  <p>Ciao! Stai per essere reindirizzato a lorenzo.web. Non è un sito malizioso, ma solo, beh, il vero sito. Qua non c'è niente…</p>
+</body>
+</html>
